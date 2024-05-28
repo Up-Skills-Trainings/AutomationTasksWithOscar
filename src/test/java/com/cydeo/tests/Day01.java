@@ -63,6 +63,35 @@ public class Day01 {
         Assertions.assertEquals(expectedId,actualId);
     }
 
+    @Test
+    public void cucumberBookLocationTest(){
+
+        // Requirement to verify: cucumber book is below agile, left of BDD and right of selenium books
+
+        String actualId = driver.findElement(RelativeLocator.with(By.tagName("li"))
+                .toLeftOf(By.id("pid8")) // BDD
+                .toRightOf(By.id("pid6")) // Selenium
+                .below(By.id("pid3")))   // Agile
+                .getAttribute("id");
+
+        String expectedId = "pid7";
+
+        Assertions.assertEquals(expectedId,actualId);
+
+    }
+
+    @Test
+    public void locateSearchBoxWithRelativeApproach() throws InterruptedException {
+
+        WebElement searchBox = driver.findElement(RelativeLocator.with(By.tagName("input")).below(By.id("page-title")));
+
+        searchBox.sendKeys("Java");
+
+        Thread.sleep(5000);
+
+    }
+
+
 
 
 

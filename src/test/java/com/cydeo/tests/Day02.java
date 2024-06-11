@@ -58,5 +58,19 @@ public class Day02 {
 
     }
 
+    /*
+    HW:
+    go to demoqa.com
+    add following cookies
+        - expires
+        - token
+        - userID
+        - userName
+
+    navigate to demoqa.com/profile
+    verify that your user logged in
+
+     */
+
 
 }

@@ -1,0 +1,33 @@
+{
+    "available": "on",
+    "productName": "Test Automation with Selenium",
+    "productId": "prod_PMYWvWHeM3LeY9",
+    "teen": "no",
+    "type": "Program",
+    "programId": 56,
+    "programCode": "taws",
+    "programName": "Test Automation with Selenium",
+    "startDate": "Apr 10, 2024",
+    "refundDate": "May 10, 2024",
+    "externalUrl": "cydeo.com",
+    "terms": "https://docs.google.com/document/d/1FZwuv6fKa8hUAlfSykQ8jN85ycl6VCIBe_HYbY5UMkM/edit#heading=h.iq7wiy3olb6",
+    "prices": [
+      {
+        "active": true,
+        "baseAmount": 500,
+        "type": "one-time",
+        "upfrontDiscount": true,
+        "upfrontDiscountAmount": 100,
+        "allowCoupons": true,
+        "couponDiscount": 50
+      },
+      {
+        "active": true,
+        "baseAmount": 500,
+        "type": "recurring",
+        "numberOfInstallments": 5,
+        "allowCoupons": true,
+        "couponDiscount": 50
+      }
+    ]
+  }

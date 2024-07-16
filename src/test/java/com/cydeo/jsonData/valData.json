@@ -1,0 +1,10 @@
+{
+  "username" : "Tester",
+  "password" : "test123",
+  "email" : "test@example.com",
+  "phone" : "+1 123-456-7890",
+  "address" : "123 Main St, Anytown, USA",
+  "dob" : "1990-01-01",
+  "gender" : "Male",
+  "hobbies" : ["Reading", "Painting", "Gardening"]
+}
